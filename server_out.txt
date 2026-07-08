@@ -1,0 +1,43 @@
+Age lookup: 4318 players from FBref standard CSVs
+Position lookup: 4319 players from FBref standard CSVs
+Loading 10 Sofascore files...
+Loaded 5016 players  |  Position sources: FBref=2676  LastName=560  Stats=1780
+[percentiles] calculated for 5016 players (642 FW / 3214 MF / 1160 DF)
+
+============================================================
+STARTUP DEBUG — role_key + top5_stats
+============================================================
+
+  Harry Kane  [Bundesliga]
+  pos=FW  role_key=Forward
+  top5: ['Goals/90', 'xG/90', 'Shots/90', 'Box Shots/90', 'xA/90']
+    Goals/90: 0.839  (99th pct)
+    xG/90: 0.660  (99th pct)
+    Shots/90: 3.677  (98th pct)
+    Box Shots/90: 2.839  (98th pct)
+    xA/90: 0.179  (96th pct)
+
+  Pedri  [La Liga]
+  pos=MF  role_key=Midfielder
+  top5: ['Final 3rd Passes/90', 'xA/90', 'Key Passes/90', 'Big Chances/90', 'Ball Recoveries/90']
+    Final 3rd Passes/90: 24.811  (100th pct)
+    xA/90: 0.243  (99th pct)
+    Key Passes/90: 1.892  (98th pct)
+    Big Chances/90: 0.378  (96th pct)
+    Ball Recoveries/90: 6.865  (92th pct)
+
+  Trent Alexander-Arnold  [Premier League]
+  pos=DF  role_key=Defender
+  top5: ['Key Passes/90', 'Crosses/90', 'Assists/90', 'Long Balls/90', 'Tackles/90']
+    Key Passes/90: 1.697  (99th pct)
+    Crosses/90: 1.182  (98th pct)
+    Assists/90: 0.182  (97th pct)
+    Long Balls/90: 3.818  (94th pct)
+    Tackles/90: 2.182  (93th pct)
+============================================================
+
+ * Serving Flask app 'server'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5001
+Press CTRL+C to quit

@@ -1,0 +1,17 @@
+Age lookup: 4318 players from FBref standard CSVs
+Position lookup: 4319 players from FBref standard CSVs
+Loading 10 Sofascore files...
+Skipping TUR_Super_Lig_sofascore_2425.csv — Turkey excluded
+Loaded 4521 players  |  Position sources: FBref=2608  LastName=513  Stats=1400
+[percentiles] calculated for 4521 players (608 FW / 2818 MF / 1095 DF)
+
+[startup] Role detection check:
+Traceback (most recent call last):
+  File "C:\Users\Pavit singh\OneDrive\Desktop\proxima-scout\server.py", line 449, in <module>
+    _debug_roles()
+  File "C:\Users\Pavit singh\OneDrive\Desktop\proxima-scout\server.py", line 352, in _debug_roles
+    print(f"  {p['player']:30} pos={p.get('pos','?'):6}  \u2192 {role}")
+  File "C:\Users\Pavit singh\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 45: character maps to <undefined>

@@ -1,0 +1,7 @@
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5001
+Press CTRL+C to quit
+127.0.0.1 - - [19/May/2026 17:09:23] "GET /search?name=declan+rice HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2026 17:09:23] "GET /search?name=valverde HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2026 17:11:21] "GET /search?name=declan+rice HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2026 17:11:22] "GET /search?name=valverde HTTP/1.1" 200 -
